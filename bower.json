@@ -1,0 +1,25 @@
+{
+  "name": "mysite",
+  "description": "My website",
+  "main": "index.js",
+  "authors": [
+    "Kerwin"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "kerwin"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
