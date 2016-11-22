@@ -37,6 +37,8 @@ app.use(express.static(__dirname + '/public'));
 var routers_index = require('./routes/index')
 //端口号
 app.set('port', process.env.PORT || 4002);
+
+app.use(bodyparser());
 //中间件（局部文件）
 app.use(function (req, res, next) {
     if (!res.locals.partials) res.locals.partials = {};
